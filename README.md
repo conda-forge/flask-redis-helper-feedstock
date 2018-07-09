@@ -17,14 +17,15 @@ application context the same way SQLAlchemy does.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-redis-helper-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-redis-helper-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-redis-helper-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-redis-helper-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-redis-helper-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-redis-helper-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flask-redis-helper-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flask-redis-helper-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-redis-helper/badges/version.svg)](https://anaconda.org/conda-forge/flask-redis-helper)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-redis-helper/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-redis-helper)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--redis--helper-green.svg)](https://anaconda.org/conda-forge/flask-redis-helper) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-redis-helper.svg)](https://anaconda.org/conda-forge/flask-redis-helper) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-redis-helper.svg)](https://anaconda.org/conda-forge/flask-redis-helper) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-redis-helper.svg)](https://anaconda.org/conda-forge/flask-redis-helper) |
 
 Installing flask-redis-helper
 =============================
@@ -69,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
